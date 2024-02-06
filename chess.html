@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<head>
+    <title>Chess_Game</title>
+    <link rel="stylesheet" href="./chess.css">
+    <script src="./chess.js" defer></script>
+</head>
+<body>
+<div class="full">
+    <h1 align="center">CHESS GAME</h1>
+    <table class="alpha" align="center" width="850" height="50">
+        <tr>
+            <td align="center">a</td>
+            <td align="center">b</td>
+            <td align="center">c</td>
+            <td align="center">d</td>
+            <td align="center">e</td>
+            <td align="center">f</td>
+            <td align="center">g</td>
+            <td align="center">h</td>
+        </tr>
+    </table>
+<div class="chessboard1">
+    <table id="chessboard" align="center" width="1000" height="900" >
+    <tr>
+        <th class="num" align="center" >8</th>
+        <td align="center" width="100" height="100" bgcolor="white">&#9820</td>
+        <td align="center" width="100" height="100" bgcolor="Gray">&#9822</td>
+        <td align="center" width="100" height="100" bgcolor="white">&#9821</td>
+        <td align="center" width="100" height="100" bgcolor="#696969">&#9819</td>
+        <td align="center" width="100" height="100" bgcolor="white">&#9818</td>
+        <td align="center" width="100" height="100" bgcolor="#696969">&#9821</td>
+        <td align="center" width="100" height="100" bgcolor="white">&#9822</td>
+        <td align="center" width="100" height="100" bgcolor="#696969">&#9820</td>
+        <th class="num" align="center" >8</th>
+    </tr>
+    <tr>
+        <th class="num" align="center" >7</th>
+        <td align="center" width="100" height="100" bgcolor="#696969">&#9823</td>
+        <td align="center" width="100" height="100" bgcolor="white">&#9823</td>
+        <td align="center" width="100" height="100" bgcolor="#696969">&#9823</td>
+        <td align="center" width="100" height="100" bgcolor="white">&#9823</td>
+        <td align="center" width="100" height="100" bgcolor="#696969">&#9823</td>
+        <td align="center" width="100" height="100" bgcolor="white">&#9823</td>
+        <td align="center" width="100" height="100" bgcolor="#696969">&#9823</td>
+        <td align="center" width="100" height="100" bgcolor="white">&#9823</td>
+        <th class="num" align="center" >7</th>
+    </tr>
+    <tr>
+        <th class="num" align="center" >6</th>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <th class="num" align="center" >6</th>
+    </tr>
+    <tr>
+        <th class="num" align="center" >5</th>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <th class="num" align="center" >5</th>
+    </tr>
+    <tr>
+        <th class="num" align="center" >4</th>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <th class="num" align="center" >4</th>
+    </tr>
+    <tr>
+        <th class="num" align="center" >3</th>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <td align="center" width="100" height="100" bgcolor="#696969"></td>
+        <td align="center" width="100" height="100" bgcolor="white"></td>
+        <th class="num" align="center" >3</th>
+    </tr>
+    <tr>
+        <th class="num" align="center" >2</th>
+        <td align="center" width="100" height="100" bgcolor="white">&#9817</td>
+        <td align="center" width="100" height="100" bgcolor="#696969">&#9817</td>
+        <td align="center" width="100" height="100" bgcolor="white">&#9817</td>
+        <td align="center" width="100" height="100" bgcolor="#696969">&#9817</td>
+        <td align="center" width="100" height="100" bgcolor="white">&#9817</td>
+        <td align="center" width="100" height="100" bgcolor="#696969">&#9817</td>
+        <td align="center" width="100" height="100" bgcolor="white">&#9817</td>
+        <td align="center" width="100" height="100" bgcolor="#696969">&#9817</td>
+        <th class="num" align="center" >2</th>
+    </tr>
+    <tr>
+        <th class="num" align="center"  >1</th>
+        <td align="center" width="100" height="100" bgcolor="#696969">&#9814</td>
+        <td align="center" width="100" height="100" bgcolor="white">&#9816</td>
+        <td align="center" width="100" height="100" bgcolor="#696969">&#9815</td>
+        <td align="center" width="100" height="100" bgcolor="white">&#9813</td>
+        <td align="center" width="100" height="100" bgcolor="#696969">&#9812</td>
+        <td align="center" width="100" height="100" bgcolor="white">&#9815</td>
+        <td align="center" width="100" height="100" bgcolor="#696969">&#9816</td>
+        <td align="center" width="100" height="100" bgcolor="white">&#9814</td>
+        <th class="num" align="center" >1</th>
+    </tr>
+</div>
+    <table class="alpha" align="center" width="800" height="50">
+        <tr>
+            <td align="center">a</td>
+            <td align="center">b</td>
+            <td align="center">c</td>
+            <td align="center">d</td>
+            <td align="center">e</td>
+            <td align="center">f</td>
+            <td align="center">g</td>
+            <td align="center">h</td>
+        </tr>
+    </table>
+</table>
+<script>
+    //make coins move
+    let selectedPiece = null;
+    function pieceClick(event) {
+        const piece = event.target;
+
+        if (selectedPiece === null) {
+            selectedPiece = piece;
+        } else {
+            piece.innerHTML = selectedPiece.innerHTML;
+            selectedPiece.innerHTML = '';
+            selectedPiece = null;
+        }
+    }
+    const pieces = document.querySelectorAll("#chessboard td");
+    pieces.forEach(piece => {
+        piece.addEventListener("click", pieceClick);
+    });
+    //make coins move
+    
+
+    
+</script>
+</div>
+</body>
+</html>
+
